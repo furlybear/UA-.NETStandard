@@ -43,7 +43,7 @@ namespace Opc.Ua.Client
     /// <summary>
     /// Manages a session with a server.
     /// </summary>
-    public class Session : SessionClient, IDisposable
+    public class Session : SessionClient, IDisposable, ISession
     {
         #region Constructors
         /// <summary>
